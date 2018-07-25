@@ -21,6 +21,7 @@
 ## Useful Links
 
 1. [Windows SSR客户端](https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases)
-1. [MAC SSR客户端](https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases)
-1. [Android SSR客户端](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases/)
+2. [MAC SSR客户端](https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases)
+3. [Android SSR客户端](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases/)
+4. [ShadowSocksShare-OpenShift](https://github.com/the0demiurge/ShadowSocksShare-OpenShift)
 
