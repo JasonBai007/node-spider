@@ -1,15 +1,28 @@
 const https = require('https')
 const fs = require('fs')
-const url = 'https://my.ishadowx.net/';
 
-https.get(url, (res) => {
-  let html = '';
-  // 获取页面数据
-  res.on('data', (data) => {});
-  // 数据获取结束
-  res.on('end', () => {
-
+function download(arr) {
+  arr.forEach(url => {
+    https.get(url, (res) => {
+      let data = '';
+      res.setEncoding('binary');
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+      res.on('end', () => {
+        let file_name = `./img${url.split('qr')[1]}`
+          // 调用 fs.writeFile 方法保存图片到本地        
+        fs.writeFile(file_name, data, 'binary', (err) => {
+          if (err) {
+            console.log(err);
+          }
+          console.log(`Image downloaded: ${url}`);
+        });
+      })
+    }).on('error', () => {
+      console.log('download data failed');
+    });
   });
-}).on('error', () => {
-  console.log('download data failed');
-});
+}
+
+module.exports = download

@@ -1,8 +1,6 @@
-// 引入https模块
 const https = require('https')
-  // 引入 cheerio模块
 const cheerio = require('cheerio');
-const tools = require('./util/tools')
+const download = require('./util/tools.js')
 
 // 定义网络爬虫的目标地址：iShadow免费SSR网站
 const url = 'https://my.ishadowx.net/';
@@ -13,7 +11,6 @@ https.get(url, (res) => {
   res.on('data', (data) => {
     html += data;
   });
-  // 数据获取结束
   res.on('end', () => {
     // 使用 cheerio 加载抓取到的 HTML 代码
     // 然后就可以使用 jQuery 的方法了
@@ -27,7 +24,7 @@ https.get(url, (res) => {
       _arr.push(url + img_url)
     })
     let imgs = _arr.slice(0, 9)
-    tools.download(imgs)
+    download(imgs)
 
   });
 }).on('error', () => {
