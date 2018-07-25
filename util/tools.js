@@ -20,7 +20,7 @@ function download(arr) {
         });
       })
     }).on('error', () => {
-      console.log('download data failed');
+      console.log(`${url} download failed`);
     });
   });
 }

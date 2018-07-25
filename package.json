@@ -4,7 +4,8 @@
   "description": "get ssr pics by node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node spider.js"
+    "start": "yarn run clean && node spider.js",
+    "clean": "rm -rf ./img/*"
   },
   "repository": "git+https://github.com/JasonBai007/node-spider.git",
   "author": "JasonBai007 <byygkcg@163.com>",
