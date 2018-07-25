@@ -1,0 +1,20 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "get ssr pics by node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node spider.js"
+  },
+  "repository": "git+https://github.com/JasonBai007/node-spider.git",
+  "author": "JasonBai007 <byygkcg@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonBai007/node-spider/issues"
+  },
+  "homepage": "https://github.com/JasonBai007/node-spider#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
