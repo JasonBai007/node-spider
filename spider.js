@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const download = require('./util/tools.js')
 
 // 定义网络爬虫的目标地址：iShadow免费SSR网站
-const url = 'https://my.ishadowx.net/';
+const url = 'https://us.ishadowx.net/';
 
 https.get(url, (res) => {
   let html = '';
