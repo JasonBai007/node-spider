@@ -1,5 +1,5 @@
 # node-spider
-获取 [my.ishadowx.net](https://my.ishadowx.net/) 上的ssr二维码并下载到本地，仅供练习使用node.js写爬虫。
+获取 [us.ishadowx.net](https://us.ishadowx.net/) 上的ssr二维码并下载到本地，仅供练习使用node.js写爬虫。
 
 ## Techs
 
