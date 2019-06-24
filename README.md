@@ -1,6 +1,6 @@
 # node-spider
 获取 [us.ishadowx.net](https://us.ishadowx.net/) 上的ssr二维码并下载到本地，仅供练习使用node.js写爬虫。  
-遗憾的是，此目标网站早已被和谐。
+**遗憾的是，此目标网站早已被和谐。**
 
 ## Techs
 
