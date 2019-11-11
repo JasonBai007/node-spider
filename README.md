@@ -26,4 +26,4 @@
 3. [Android SSR客户端](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases/)
 4. [ShadowSocksShare-OpenShift](https://github.com/the0demiurge/ShadowSocksShare-OpenShift)
 5. [放牧的风 github](https://github.com/ThinkDevelop/Free-SS-SSR)
-6. [lncn.org] (https://lncn.org/)
+6. [lncn.org](https://lncn.org/)
